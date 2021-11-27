@@ -1,6 +1,6 @@
 # ------------------------------------------------- #
 # Title: Assignment07_AK
-# Description: This program demonstrates error handling and stores/reads data from a binary file.
+# Description: This program demonstrates error handling and store data to and reads from a binary file
 # ChangeLog: (Who, When, What)
 # Andrew Kehl,11.27.2021,Created Script
 # ------------------------------------------------- #
