@@ -13,7 +13,7 @@ Assignment07_AK.py is a simple program that requests a number and a word. It the
 ## Inputs & Error Handling
 
 ### Numerical Error Handling
-Error Handling was coded into the number input via a if/else statement inside a while(True) loop using the isnumeric function. It asks if the entry is a number. If so, break the loop. Otherwise (else) print a statement and continue the loop. (Figure 1.1 & Figure 1.2)
+Error Handling was coded into the number input via an if/else statement inside a while(True) loop using the isnumeric function. It asks if the entry is a number. If so, break the loop. Otherwise (else) print a statement and continue the loop. (Figure 1.1 & Figure 1.2)
 ```python
     while (True):
         a_number = input("Enter a Number: ")
