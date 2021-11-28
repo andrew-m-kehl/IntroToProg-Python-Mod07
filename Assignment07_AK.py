@@ -4,8 +4,6 @@
 # ChangeLog: (Who, When, What)
 # Andrew Kehl,11.27.2021,Created Script
 # ------------------------------------------------- #
-''' fd fd fd '''
-
 class user_input():
 #################################################################################
 #Numerical input with if/else error handeling
