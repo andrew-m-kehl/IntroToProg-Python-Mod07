@@ -2,9 +2,8 @@ Andrew Kehl
 11/27/21  
 UW Foundations in programming  
 Assignment 07  
-https://kehlstorm.github.io/IntroToProg-Python-Mod07/
-https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/Assignment07_AK.py
-
+https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/Assignment07_AK.py  
+  
 ### Introduction
 The objective of this assignment is to create a new script that demonstrates how pickling and structured error handling work. 
  
