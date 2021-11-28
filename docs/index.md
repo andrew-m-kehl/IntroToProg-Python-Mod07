@@ -24,7 +24,8 @@ Error Handling was coded into the number input via a if/else statement inside a 
             print('Enter Only Numbers Please.')
         continue
 ```
-Figure 1.1 - Error Handling with an If/Else statement.   
+Figure 1.1 - Error Handling with an If/Else statement.  
+  
 ![NEHUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Numerical%20Error%20Handling%20UI.jpg)  
 Figure 1.2 - Numerical Error Handling User Interface.  
 
@@ -43,6 +44,7 @@ Error Handling was coded into the word input via a try/except statement inside a
             break
 ```  
 Figure 1.3 - Error Handling with a try/except statement.  
+  
 ![AEHUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Alphabeticall%20Error%20Handling%20UI.jpg)  
 Figure 1.4 - Alphabetical Error Handling User Interface.  
 
@@ -73,7 +75,6 @@ class user_input():
 #################################################################################
 ```
 Figure 1.5 - user_input class.  
-
 ## Pickling our data
 Now we open a new file on the local database for writing to store our data. We call the user_input data and tell the pickle function where to put it.  (Figure 2.1)
 ```
@@ -87,15 +88,20 @@ Using the pickle.dumps function, we can read and print the data as the computer 
 my_pickled_data = pickle.dumps(user_input())
 print(f"This is my pickled data: {my_pickled_data}\n")
 ```
-Figure 2.2 - Printing pickled data.
+Figure 2.2 - Printing pickled data.  
+  
 ![PDUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Pickled%20Data%20UI.jpg)  
 Figure 2.3 - Pickled data user interface.  
+  
 Finally, we use the pickle.loads function to unpickle the data to a format we all can read. (Figure 2.4 & Figure 2.5)
 ```
 my_unpickled_data = pickle.loads(my_pickled_data)
 print(f"This is my unpickled data: {my_unpickled_data.a_number}, {my_unpickled_data.a_word}")
 ```
+Figure 2.4 - Printing unpickled data.  
+  
 ![UPDUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Unpickled%20Data.jpg)  
 Figure 2.5 - Unpickled data user interface.  
-
-
+  
+## Conclusion
+Assignment07_AK.py is a new script that demonstrates how structured error handling works with user inputs and how pickling and unpickling data works. 
