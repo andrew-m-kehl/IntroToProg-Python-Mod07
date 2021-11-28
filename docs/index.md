@@ -24,6 +24,23 @@ Error Handling was coded into the number input via a if/else statement inside a 
             print('Enter Only Numbers Please.')
         continue
 ```
-Figure 1.1 - Error Handling with an If/Else statement.
-docs/Numerical Error Handling UI.jpg
-Figure 1.2 - Numerical Error Handling User Interface. 
+Figure 1.1 - Error Handling with an If/Else statement. 
+https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Numerical%20Error%20Handling%20UI.jpg?raw=true  
+https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/f9fe7df967b78236b4f200f5bd31a48cac7cf938/docs/Numerical%20Error%20Handling%20UI.jpg    
+Figure 1.2 - Numerical Error Handling User Interface.  
+
+## Alphabetical Error Handling
+Error Handling was coded into the word input via a try/except statement inside a while(True) loop again using the isnumeric function. It asks if the entry is a number. If so, raise the exception and print a statement and continue the loop. If not (else) break. (Figure 1.3)
+```
+    while (True):
+        try:
+            a_word = str(input("Enter a Word: "))
+            if a_word.isnumeric():
+                raise Exception('Enter Only Words Please.')
+        except Exception as e:
+            print(e)
+            continue
+        else:
+            break
+```  
+Figure 1.3 - Error Handling with a try/except statement.
