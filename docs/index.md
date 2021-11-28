@@ -82,10 +82,20 @@ with open('PickleData.dat', 'wb') as f:
     pickle.dump(user_input(), f)
 ```  
 Figure 2.1 - Saving data to a local database using the pickle function.  
-Using the pickle.dumps function, we can read and print the data as the computer sees it.
+Using the pickle.dumps function, we can read and print the data as the computer sees it. (Figure 2.2 & Figure 2.3)
 ```
 my_pickled_data = pickle.dumps(user_input())
 print(f"This is my pickled data: {my_pickled_data}\n")
 ```
 Figure 2.2 - Printing pickled data.
+![PDUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Pickled%20Data%20UI.jpg)  
+Figure 2.3 - Pickled data user interface.  
+Finally, we use the pickle.loads function to unpickle the data to a format we all can read. (Figure 2.4 & Figure 2.5)
+```
+my_unpickled_data = pickle.loads(my_pickled_data)
+print(f"This is my unpickled data: {my_unpickled_data.a_number}, {my_unpickled_data.a_word}")
+```
+![UPDUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Unpickled%20Data.jpg)  
+Figure 2.5 - Unpickled data user interface.  
+
 
