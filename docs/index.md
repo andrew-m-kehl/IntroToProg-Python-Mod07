@@ -25,3 +25,5 @@ Error Handling was coded into the number input via a if/else statement inside a 
         continue
 ```
 Figure 1.1 - Error Handling with an If/Else statement.
+docs/Numerical Error Handling UI.jpg
+Figure 1.2 - Numerical Error Handling User Interface. 
