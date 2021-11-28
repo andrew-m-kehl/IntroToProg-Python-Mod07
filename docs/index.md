@@ -14,7 +14,7 @@ Assignment07_AK.py is a simple program that requests a number and a word. It the
 
 ### Numerical Error Handling
 Error Handling was coded into the number input via a if/else statement inside a while(True) loop using the isnumeric function. It asks if the entry is a number. If so, break the loop. Otherwise (else) print a statement and continue the loop. (Figure 1.1 & Figure 1.2)
-```
+```python
     while (True):
         a_number = input("Enter a Number: ")
         if a_number.isnumeric():
@@ -30,7 +30,7 @@ Figure 1.2 - Numerical Error Handling User Interface.
 
 ### Alphabetical Error Handling
 Error Handling was coded into the word input via a try/except statement inside a while(True) loop again using the isnumeric function. It asks if the entry is a number. If so, raise the exception and print a statement and continue the loop. If not (else) break. (Figure 1.3 & Figure 1.4)
-```
+```python
     while (True):
         try:
             a_word = str(input("Enter a Word: "))
@@ -48,7 +48,7 @@ Figure 1.3 - Error Handling with a try/except statement.
 Figure 1.4 - Alphabetical Error Handling User Interface.  
 
 Both Numerical and Alphabetical input loops are included into a class called 'user_input'. (Figure 1.5)
-```
+```python
 class user_input():
 #################################################################################
 #Numerical input with if/else error handeling
@@ -76,14 +76,14 @@ class user_input():
 Figure 1.5 - user_input class.  
 ### Pickling our data
 Now we open a new file on the local database for writing to store our data. We call the user_input data and tell the pickle function where to put it.  (Figure 2.1)
-```
+```python
 import pickle
 with open('PickleData.dat', 'wb') as f:
     pickle.dump(user_input(), f)
-```  
+``` 
 Figure 2.1 - Saving data to a local database using the pickle function.  
 Using the pickle.dumps function, we can read and print the data as the computer sees it. (Figure 2.2 & Figure 2.3)
-```
+```python
 my_pickled_data = pickle.dumps(user_input())
 print(f"This is my pickled data: {my_pickled_data}\n")
 ```
@@ -93,7 +93,7 @@ Figure 2.2 - Printing pickled data.
 Figure 2.3 - Pickled data user interface.  
   
 Finally, we use the pickle.loads function to unpickle the data to a format we all can read. (Figure 2.4 & Figure 2.5)
-```
+```python
 my_unpickled_data = pickle.loads(my_pickled_data)
 print(f"This is my unpickled data: {my_unpickled_data.a_number}, {my_unpickled_data.a_word}")
 ```
