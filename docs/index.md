@@ -25,7 +25,7 @@ Error Handling was coded into the number input via an if/else statement inside a
 ```
 Figure 1.1 - Error Handling with an If/Else statement.  
   
-![NEHUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Numerical%20Error%20Handling%20UI.jpg)  
+![NEHUI](https://raw.githubusercontent.com/kehlstorm/IntroToProg-Python-Mod07/main/docs/Numerical%20Error%20Handling%20UI.jpg)  
 Figure 1.2 - Numerical Error Handling User Interface.  
 
 ### Alphabetical Error Handling
@@ -44,7 +44,7 @@ Error Handling was coded into the word input via a try/except statement inside a
 ```  
 Figure 1.3 - Error Handling with a try/except statement.  
   
-![AEHUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Alphabeticall%20Error%20Handling%20UI.jpg)  
+![AEHUI](https://raw.githubusercontent.com/kehlstorm/IntroToProg-Python-Mod07/main/docs/Alphabeticall%20Error%20Handling%20UI.jpg)  
 Figure 1.4 - Alphabetical Error Handling User Interface.  
 
 Both Numerical and Alphabetical input loops are included into a class called 'user_input'. (Figure 1.5)
@@ -89,7 +89,7 @@ print(f"This is my pickled data: {my_pickled_data}\n")
 ```
 Figure 2.2 - Printing pickled data.  
   
-![PDUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Pickled%20Data%20UI.jpg)  
+![PDUI](https://raw.githubusercontent.com/kehlstorm/IntroToProg-Python-Mod07/main/docs/Pickled%20Data%20UI.jpg)  
 Figure 2.3 - Pickled data user interface.  
   
 Finally, we use the pickle.loads function to unpickle the data to a format we all can read. (Figure 2.4 & Figure 2.5)
@@ -99,7 +99,7 @@ print(f"This is my unpickled data: {my_unpickled_data.a_number}, {my_unpickled_d
 ```
 Figure 2.4 - Printing unpickled data.  
   
-![UPDUI](https://github.com/kehlstorm/IntroToProg-Python-Mod07/blob/main/docs/Unpickled%20Data.jpg)  
+![UPDUI](https://raw.githubusercontent.com/kehlstorm/IntroToProg-Python-Mod07/main/docs/Unpickled%20Data.jpg)  
 Figure 2.5 - Unpickled data user interface.  
   
 ## Conclusion
